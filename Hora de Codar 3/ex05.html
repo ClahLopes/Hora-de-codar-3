@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    var num1 = parseInt(prompt(`Escolha o valor 1.`))
+
+    var num2 = parseInt(prompt(`Escolha o valor 2.`))
+
+    var contador = 0
+    var soma = 0
+    
+    if(num1 < num2){
+      for(i = num1 + 1; i < num2; i++){
+        if( i % 1 == 0) {
+          contador++
+          soma += i
+          console.log([i])
+        }
+      }
+    }
+
+    var media = soma / contador
+    document.write(`A média dos números inteiros entre ${num1} e ${num2} é: ${media}`)
+  </script>
+  <title>Hora de Codar 3</title>
+</head>
+<body>
+    <!--
+      Faça um algoritmo que calcule e escreva a média aritmética dos dois números inteiros informados pelo usuário e todos os números inteiros entre eles. Considere que o primeiro sempre será menor que o segundo.
+    -->
+</body>
+</html>
