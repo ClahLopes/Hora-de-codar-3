@@ -1,5 +1,4 @@
 # Hora-de-codar-3
-Atividade de JavaScript
 
 Nesta atividade, dei continuidade aos meus primeiros passos com o JavaScript e tive a oportunidade de explorar a utilização de estruturas de repetições, como for e while. Foi uma etapa emocionante na minha jornada de aprendizado da linguagem.
 
